@@ -33,14 +33,14 @@ _**Use Cases:**_
 '''
 from deepface import DeepFace
 
-# Paths to the images to be compared
+Paths to the images to be compared
 img1_path = "path/to/image1.jpg"
 img2_path = "path/to/image2.jpg"
 
-# Compare images and get similarity score
+Compare images and get similarity score
 result = DeepFace.verify(img1_path, img2_path)
 
-# Access the similarity score
+Access the similarity score
 similarity_score = result["distance"]
 
 if similarity_score < 0.5:
