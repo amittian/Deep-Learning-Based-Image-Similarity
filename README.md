@@ -16,11 +16,11 @@ _Image similarity check is a crucial task in various fields, including image ret
 
 _**Use Cases:**_
 
-1. **Image Retrieval:** Given a query image, you can use DeepFace to retrieve images from a database that are most similar to the query.
+   1. **Image Retrieval:** Given a query image, you can use DeepFace to retrieve images from a database that are most similar to the query.
    
-2. **Content Recommendation:** DeepFace can help recommend visually similar content, such as products, images, or videos, to users based on their preferences.
+   2. **Content Recommendation:** DeepFace can help recommend visually similar content, such as products, images, or videos, to users based on their preferences.
   
-3. **Duplicate Detection:** DeepFace can assist in identifying duplicate or near-duplicate images in a dataset.
+   3. **Duplicate Detection:** DeepFace can assist in identifying duplicate or near-duplicate images in a dataset.
 
 
 * **Data Preprocessing:** For accurate results, it's essential to preprocess images before using them with DeepFace. This typically involves resizing, normalization, and alignment to ensure consistent input to the models.
