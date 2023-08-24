@@ -47,6 +47,7 @@ Access the similarity score
 `
 similarity_score = result["distance"]
 `
+
 ````
 if similarity_score < 0.5:
     print("The images are similar.")
