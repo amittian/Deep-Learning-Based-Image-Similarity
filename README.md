@@ -30,3 +30,21 @@ _**Use Cases:**_
 * **Library Installation:** To use DeepFace, you need to install it using pip
 
 `pip install deepface`
+'''
+from deepface import DeepFace
+
+# Paths to the images to be compared
+img1_path = "path/to/image1.jpg"
+img2_path = "path/to/image2.jpg"
+
+# Compare images and get similarity score
+result = DeepFace.verify(img1_path, img2_path)
+
+# Access the similarity score
+similarity_score = result["distance"]
+
+if similarity_score < 0.5:
+    print("The images are similar.")
+else:
+    print("The images are dissimilar.")
+'''
