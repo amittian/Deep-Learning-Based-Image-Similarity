@@ -28,3 +28,5 @@ _**Use Cases:**_
 * **Performance:** The performance of DeepFace in image similarity tasks heavily relies on the quality of the pre-trained models and the underlying deep learning architecture. It's important to choose appropriate models that suit your specific use case.
 
 * **Library Installation:** To use DeepFace, you need to install it using pip
+
+pip install deepface
