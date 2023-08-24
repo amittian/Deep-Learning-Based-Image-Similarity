@@ -36,10 +36,9 @@ _**Use Cases:**_
 
 ##### Paths to the images to be compared
 
-``
-img1_path = "path/to/image1.jpg" \
-img2_path = "path/to/image2.jpg"
-``
+`img1_path = "path/to/image1.jpg" `
+`img2_path = "path/to/image2.jpg"`
+
 
 #####  Compare images and get similarity score
 
