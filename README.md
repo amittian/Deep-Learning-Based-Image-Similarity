@@ -38,7 +38,6 @@ from deepface import DeepFace
 ``
 img1_path = "path/to/image1.jpg"
 img2_path = "path/to/image2.jpg"
-
 ``
 
 #####  Compare images and get similarity score
