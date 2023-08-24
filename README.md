@@ -52,7 +52,7 @@ similarity_score = result["distance"]
 `
 
 ````
-if similarity_score < 0.5:
+if similarity_score < 0.09:
     print("The images are similar.")
 else:
     print("The images are dissimilar.")
