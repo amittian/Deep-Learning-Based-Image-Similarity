@@ -29,10 +29,10 @@ _**Use Cases:**_
 
 * **Library Installation:** To use DeepFace, you need to install it using pip
 
-`pip install deepface` \
-`
-from deepface import DeepFace
-`
+`pip install deepface` 
+
+`from deepface import DeepFace`
+
 
 ##### Paths to the images to be compared
 
