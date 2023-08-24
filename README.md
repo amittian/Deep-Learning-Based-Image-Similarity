@@ -21,3 +21,10 @@ _**Use Cases:**_
 2. **Content Recommendation:** DeepFace can help recommend visually similar content, such as products, images, or videos, to users based on their preferences.
   
 3. **Duplicate Detection:** DeepFace can assist in identifying duplicate or near-duplicate images in a dataset.
+
+
+* **Data Preprocessing:** For accurate results, it's essential to preprocess images before using them with DeepFace. This typically involves resizing, normalization, and alignment to ensure consistent input to the models.
+
+* **Performance:** The performance of DeepFace in image similarity tasks heavily relies on the quality of the pre-trained models and the underlying deep learning architecture. It's important to choose appropriate models that suit your specific use case.
+
+* **Library Installation:** To use DeepFace, you need to install it using pip
